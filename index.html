@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Título principal -->
+    <h1 class="titulo">Mi Calculadora</h1>
+
+    <!-- Contenedor principal -->
+    <div id="calculadora">
+
+        <!-- Entradas -->
+        <input type="text" id="valor1" placeholder="Número 1" class="texto">
+        <input type="text" id="valor2" placeholder="Número 2" class="texto">
+
+        <br><br>
+
+        <!-- Botones -->
+        <div id="botones">
+            <input type="button" value="Sumar" onclick="suma()" class="boton">
+            <input type="button" value="Restar" onclick="resta()" class="boton">
+            <input type="button" value="Multiplicar" onclick="multiplicacion()" class="boton">
+            <input type="button" value="Dividir" onclick="division()" class="boton">
+        </div>
+
+        <br><br>
+
+        <!-- Resultado -->
+        <h2 class="titulo">Resultado</h2>
+        <div id="resultado">0</div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p><strong>Nombres:</strong> Emanuel David</p>
+        <p><strong>Apellidos:</strong> Triana Aguilar</p>
+        <p><strong>Sección:</strong> 1006</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+
+</body>
+</html>
